@@ -1,0 +1,158 @@
+       /*ul,li,hover,black,a,a hover is for navigation bar*/
+       
+       ul {
+           background-color: red;
+           list-style-type: none;
+           overflow: auto;
+           margin: 0% 1% 0% 1.2%;
+           border-style: solid;
+           border-color: yellow;
+           box-shadow: 10px 5px 15px 3px yellow;
+           border-radius: 10px;
+       }
+       
+       li {
+           color: black;
+           float: left;
+           padding: 0.6%;
+           border-style: solid;
+           margin: 0.5% 3% 0.5% 3%;
+           background-color: yellow;
+           border-radius: 8px;
+           border-color: rgb(37, 104, 101);
+           display: inline-block;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-weight: bolder;
+       }
+       
+       li:hover {
+           box-shadow: 5px 10px 10px 10px rgb(37, 104, 101);
+           display: inline-block;
+           transform: perspective(300px)translate3d(10px, 5px, 5px);
+       }
+       
+       a {
+           text-decoration: none;
+           color: black;
+       }
+       
+       a:hover {
+           color: black;
+       }
+       
+       #black {
+           color: black;
+           text-decoration: none;
+       }
+       /*body background*/
+       
+       body {
+           background-color: black;
+       }
+       /*conatiner of marquee images on top defining margin*/
+       
+       .sli {
+           margin-top: 1%;
+       }
+       /*kathak heading*/
+       
+       #dance {
+           text-align: center;
+           color: white;
+           font-weight: bolder;
+           font-size: 50px;
+           text-shadow: 3px 3px 5px red;
+           font-style: italic;
+           column-span: all;
+           font-family: 'Dancing Script', cursive;
+       }
+       /*kathak intro background*/
+       
+       #kathak_intro {
+           border-style: inset;
+           margin: 1%;
+           color: yellow;
+           border-radius: 50px;
+           background-color: black;
+       }
+       /*kathak paragraph*/
+       
+       #kathak_para {
+           padding: 1%;
+           font-weight: bolder;
+           font-size: 20px;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           word-wrap: break-word;
+           overflow: auto;
+       }
+       /*kathak paragraph first letter*/
+       
+       #kathak_para::first-letter {
+           font-weight: bolder;
+           font-size: 40px;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }
+       /*gharana heading and background*/
+       
+       #prefer {
+           color: black;
+           margin-top: 2%;
+           border-style: inset;
+           border-radius: 80%;
+           padding: 2%;
+           font-size: 30px;
+           background-image: radial-gradient(circle, red 10%, yellow);
+           font-weight: bolder;
+           font-style: italic;
+           font-family: cursive;
+           overflow: auto;
+           margin-left: 20%;
+           margin-right: 20;
+           text-align: center;
+       }
+       /*left gharanas background and content*/
+       
+       #illustrations {
+           color: yellow;
+           border-style: solid;
+           margin: 2%;
+           padding: 2%;
+           margin-top: 5%;
+           font-weight: bolder;
+           font-style: italic;
+           border-radius: 0px 80px 80px 0px;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           background-image: radial-gradient(circle, rgb(83, 11, 87) 10%, green);
+       }
+       /*jaipur and lucknow gharana images*/
+       
+       #jaipur {
+           float: left;
+           border-style: solid;
+           border-color: black;
+           border-width: 5px;
+       }
+       /*right gharanas background and content*/
+       
+       #illustrations2 {
+           color: yellow;
+           border-style: solid;
+           margin-right: 0.5%;
+           margin-left: 5.5%;
+           padding: 2%;
+           margin-top: 5%;
+           font-weight: bolder;
+           font-style: italic;
+           border-radius: 80px 0px 0px 80px;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           background-image: radial-gradient(circle, green 10%, rgb(83, 11, 87));
+           overflow: auto;
+       }
+       /*banaras gharana images*/
+       
+       #banaras {
+           float: right;
+           border-style: solid;
+           border-color: black;
+           border-width: 5px;
+       }

@@ -1,0 +1,73 @@
+/*ul,li,hover,black is for navigation bar*/
+
+ul {
+    background-color: red;
+    list-style-type: none;
+    overflow: auto;
+    margin: 0% 1% 0% 1.2%;
+    border-style: solid;
+    border-color: yellow;
+    box-shadow: 10px 5px 15px 3px yellow;
+    border-radius: 10px;
+}
+
+li {
+    color: black;
+    padding: 5px;
+    float: left;
+    border-style: solid;
+    margin: 0.5% 3% 0.5% 3%;
+    background-color: yellow;
+    border-radius: 8px;
+    border-color: rgb(37, 104, 101);
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+li:hover {
+    box-shadow: 5px 10px 10px 10px rgb(37, 104, 101);
+    display: inline-block;
+    transform: perspective(300px)translate3d(10px, 5px, 5px);
+}
+
+#black {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*ghoongroo heading*/
+
+#dance {
+    color: yellow;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px red;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 2%;
+    text-decoration: underline;
+    margin-left: 0.5%;
+}
+
+
+/*ghoongroo paragraph*/
+
+#ghungru {
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: auto;
+    color: yellow;
+    text-align: justify;
+    margin: 0.5%;
+}
+
+
+/*image of ghoongroo paragraph*/
+
+#gh {
+    float: right;
+    margin: 1%;
+}

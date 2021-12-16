@@ -1,0 +1,110 @@
+                                      /*animaion of rotating */
+                                      
+                                      @keyframes rotation {
+                                          from {
+                                              transform: perspective(200px) rotate3d(0, 0, 0, 0deg);
+                                          }
+                                          to {
+                                              transform: perspective(300px) rotate3d(100, 50, 50, 360deg);
+                                          }
+                                      }
+                                      /*ul,li,hover,black is for navigation bar*/
+                                      
+                                      ul {
+                                          background-color: rgb(151, 5, 102);
+                                          list-style-type: none;
+                                          overflow: auto;
+                                          margin: 0% 1% 0% 1.2%;
+                                          border-style: solid;
+                                          border-color: yellow;
+                                          box-shadow: 10px 5px 15px 3px pink;
+                                          border-radius: 10px;
+                                      }
+                                      
+                                      li {
+                                          color: black;
+                                          padding: 5px;
+                                          float: left;
+                                          border-style: solid;
+                                          margin: 0.5% 3% 0.5% 3%;
+                                          background-color: rgb(212, 175, 181);
+                                          border-radius: 8px;
+                                          border-color: rgb(37, 104, 101);
+                                          display: inline-block;
+                                          font-family: Georgia, 'Times New Roman', Times, serif;
+                                          font-weight: bolder;
+                                      }
+                                      
+                                      li:hover {
+                                          box-shadow: 5px 10px 10px 10px rgb(37, 104, 101);
+                                          display: inline-block;
+                                          transform: perspective(300px)translate3d(10px, 5px, 5px);
+                                      }
+                                      
+                                      #black {
+                                          color: black;
+                                          text-decoration: none;
+                                      }
+                                      /*make-up heading*/
+                                      
+                                      #dance {
+                                          text-align: center;
+                                          color: black;
+                                          font-weight: bolder;
+                                          font-size: 60px;
+                                          text-shadow: 3px 3px 5px black;
+                                          font-style: italic;
+                                          column-span: all;
+                                          padding-top: 5%;
+                                          text-decoration: underline;
+                                      }
+                                      /*header image*/
+                                      
+                                      #make {
+                                          border-style: solid;
+                                          border-width: 8px;
+                                          border-radius: 100%;
+                                          animation-name: rotation;
+                                          animation-iteration-count: infinite;
+                                          animation-duration: 3s;
+                                      }
+                                      /*header background*/
+                                      
+                                      #baag {
+                                          background-image: linear-gradient(pink, rgb(151, 5, 102), pink);
+                                          border-style: solid;
+                                          border-color: yellow;
+                                          margin: 0.5%;
+                                          border-radius: 8px;
+                                      }
+                                      /*makeup paragraph*/
+                                      
+                                      #para {
+                                          padding: 3%;
+                                          color: pink;
+                                          font-weight: bolder;
+                                          font-size: 20px;
+                                          text-align: justify;
+                                          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                      }
+                                      /*makeup video heading*/
+                                      
+                                      #illustrations {
+                                          color: yellow;
+                                          background-image: linear-gradient(pink, rgb(151, 5, 102), pink);
+                                          border-style: solid;
+                                          margin: 2%;
+                                          padding: 2%;
+                                          margin-top: 5%;
+                                          font-weight: bolder;
+                                          font-style: italic;
+                                          border-radius: 0px 80px 80px 0px;
+                                          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                          text-decoration: underline;
+                                          text-shadow: 3px 3px 5px blue;
+                                      }
+                                      /*youtube video iframe*/
+                                      
+                                      #vid {
+                                          margin: 2%;
+                                      }

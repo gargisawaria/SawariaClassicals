@@ -1,0 +1,231 @@
+                 /*animation of change color of channel link*/
+                 
+                 @keyframes changecolor {
+                     from {
+                         background-color: orange;
+                     }
+                     to {
+                         background-color: rgb(0, 255, 238);
+                     }
+                 }
+                 /*animation of transformation of header image*/
+                 
+                 @keyframes rotation {
+                     from {
+                         transform: perspective(200px) rotate3d(0, 0, 0, 0deg);
+                     }
+                     to {
+                         transform: perspective(300px) rotate3d(100, 50, 50, 360deg);
+                     }
+                 }
+                 /*header css*/
+                 
+                 #aa {
+                     border-style: solid;
+                     border-width: 5px;
+                     box-shadow: 10px 5px 15px 3px red;
+                     color: black;
+                     margin: 0.5%;
+                     background-color: gold;
+                     text-align: center;
+                 }
+                 /*shape of image of header*/
+                 
+                 #oval {
+                     border-radius: 100%;
+                     animation-name: rotation;
+                     animation-iteration-count: infinite;
+                     animation-duration: 8s;
+                 }
+                 /*body styling*/
+                 
+                 body {
+                     background-color: black;
+                 }
+                 /*sawria classical styling*/
+                 
+                 #written_part {
+                     font-size: 50px;
+                     padding: 1%;
+                     font-family: 'Caveat', cursive;
+                     text-shadow: 3px 3px 5px red;
+                     font-style: italic;
+                     line-height: 50px;
+                     font-weight: bolder;
+                 }
+                 /*giving padding to column of row of written part of sawaria classicals*/
+                 
+                 #m {
+                     padding-top: 2%;
+                 }
+                 /*navigation bar background*/
+                 
+                 ul {
+                     background-color: red;
+                     list-style-type: none;
+                     overflow: auto;
+                     margin: 0% 1% 0% 1.2%;
+                     border-style: solid;
+                     border-color: yellow;
+                     box-shadow: 10px 5px 15px 3px yellow;
+                     border-radius: 10px;
+                 }
+                 /*navigation bar inner content*/
+                 
+                 li {
+                     color: black;
+                     padding: 5px;
+                     float: left;
+                     border-style: solid;
+                     margin: 0.5% 3% 0.5% 3%;
+                     background-color: yellow;
+                     border-radius: 8px;
+                     border-color: rgb(37, 104, 101);
+                     display: inline-block;
+                     font-family: Georgia, 'Times New Roman', Times, serif;
+                     font-weight: bolder;
+                 }
+                 /*navigation inner content on hover*/
+                 
+                 li:hover {
+                     box-shadow: 5px 10px 10px 10px rgb(37, 104, 101);
+                     display: inline-block;
+                     transform: perspective(300px)translate3d(10px, 5px, 5px);
+                 }
+                 /*navigation bar inner content links styling*/
+                 
+                 #black {
+                     color: black;
+                     text-decoration: none;
+                 }
+                 /* sawaria classical paragraph background*/
+                 
+                 #para {
+                     border-style: inset;
+                     margin: 2%;
+                     color: yellow;
+                     border-radius: 50px;
+                     background-color: red;
+                     display: inline-block;
+                     transform: perspective(600px) translate3d(10px, 10px, 10px);
+                 }
+                 /* sawaria classical paragraph */
+                 
+                 #para1 {
+                     padding: 3%;
+                     font-weight: bolder;
+                     font-size: 20px;
+                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 }
+                 /* sawaria classical paragraph first word*/
+                 
+                 v #para1::first-letter {
+                     font-weight: bolder;
+                     font-size: 40px;
+                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 }
+                 /*dance heading*/
+                 
+                 #dance {
+                     text-align: center;
+                     color: white;
+                     font-weight: bolder;
+                     font-size: 50px;
+                     text-shadow: 3px 3px 5px red;
+                     font-style: italic;
+                     column-span: all;
+                     font-family: 'Dancing Script', cursive;
+                 }
+                 /*dance paragraph written part*/
+                 
+                 #dance_info {
+                     color: white;
+                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                     font-size: 20px;
+                     font-weight: bolder;
+                     column-count: 2;
+                     column-rule: 1px dashed red;
+                 }
+                 /*image betwwen dance paragraph*/
+                 
+                 #girl2 {
+                     float: right;
+                     margin: 2%;
+                 }
+                 /*illustration heading*/
+                 
+                 #illustrations {
+                     color: yellow;
+                     border-style: solid;
+                     margin: 2%;
+                     padding: 2%;
+                     margin-top: 5%;
+                     font-weight: bolder;
+                     font-style: italic;
+                     border-radius: 0px 80px 80px 0px;
+                     background-color: red;
+                     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                     text-decoration: underline;
+                     text-shadow: 3px 3px 5px blue;
+                 }
+                 /*images*/
+                 
+                 figure {
+                     color: white;
+                     text-align: center;
+                 }
+                 /*image class to set border ,margin and padding*/
+                 
+                 .c1 {
+                     border-style: none dashed none none;
+                     padding-right: 5%;
+                 }
+                 /*channel link prefernce background*/
+                 
+                 #prefer {
+                     color: white;
+                     margin-top: 4%;
+                     border-style: inset;
+                     border-radius: 80%;
+                     padding: 10%;
+                     font-size: 30px;
+                     background-image: radial-gradient(circle, red 10%, green);
+                     font-weight: bolder;
+                     font-style: italic;
+                     font-family: cursive;
+                     overflow: auto;
+                 }
+                 /*arrow image*/
+                 
+                 #arrow {
+                     padding: 5%;
+                 }
+                 /*channel background*/
+                 
+                 #channel_link {
+                     background-color: orange;
+                     color: black;
+                     text-decoration: none;
+                     font-weight: bolder;
+                     font-size: 30px;
+                     border-style: solid;
+                     border-color: lightgreen;
+                     padding: 9%;
+                     animation-name: changecolor;
+                     animation-delay: 3s;
+                     animation-duration: 2s;
+                     animation-iteration-count: infinite;
+                 }
+                 /*channel written part adjustment*/
+                 
+                 #channel {
+                     padding: 12%;
+                     padding-top: 18%;
+                 }
+                 /*channel link on hover*/
+                 
+                 #channel_link:hover {
+                     box-shadow: 5px 10px 10px 10px rgb(37, 104, 101);
+                     display: inline-block;
+                     transform: perspective(300px)translate3d(10px, 5px, 5px);
+                 }
